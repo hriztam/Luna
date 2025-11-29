@@ -6,7 +6,7 @@ setup(
     description="A Python-based CLI assistant for macOS automation",
     packages=find_packages(),
     install_requires=[
-        "openai",
+        "groq",
         "python-dotenv",
     ],
     entry_points={
