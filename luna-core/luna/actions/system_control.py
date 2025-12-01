@@ -1,4 +1,5 @@
 import subprocess
+import luna.debug as debug
 
 def _get_current_volume() -> int:
     try:
@@ -31,6 +32,8 @@ def execute(params: dict) -> str:
     control_type = params.get("type")
     direction = params.get("direction")
     amount = params.get("amount", 10)
+    
+    debug.log("System Control", f"Type: {control_type}, Dir: {direction}, Amt: {amount}")
     
     if control_type == "volume":
         try:

@@ -1,4 +1,5 @@
 import subprocess
+import luna.debug as debug
 
 def execute(params: dict) -> str:
     """
@@ -11,6 +12,7 @@ def execute(params: dict) -> str:
         str: Success or error message.
     """
     app_name = params.get("name")
+    debug.log("Open App", app_name)
     if not app_name:
         return "Error: App name is required."
 

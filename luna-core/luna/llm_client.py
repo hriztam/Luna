@@ -2,6 +2,7 @@ import os
 import json
 from groq import Groq
 from dotenv import load_dotenv
+import luna.debug as debug
 
 # Load environment variables
 load_dotenv()
@@ -34,6 +35,8 @@ def call_llm(user_input: str) -> dict:
     if not api_key:
         return {"action": "error", "message": "GROQ_API_KEY not found in environment variables."}
 
+    debug.log("LLM Input", user_input)
+
     client = Groq(api_key=api_key)
     system_prompt = _get_system_prompt()
 
@@ -49,12 +52,18 @@ def call_llm(user_input: str) -> dict:
         )
 
         content = response.choices[0].message.content
+        debug.log("LLM Raw Response", content)
+        
         if not content:
              return {"action": "error", "message": "Empty response from LLM"}
 
-        return json.loads(content)
+        parsed = json.loads(content)
+        debug.log("LLM Parsed JSON", parsed)
+        return parsed
 
-    except json.JSONDecodeError:
+    except json.JSONDecodeError as e:
+        debug.log_error("LLM JSON Parse Error", e)
         return {"action": "error", "message": "Invalid JSON"}
     except Exception as e:
+        debug.log_error("LLM Error", e)
         return {"action": "error", "message": str(e)}

@@ -1,4 +1,5 @@
 import subprocess
+import luna.debug as debug
 
 def execute(params: dict) -> str:
     """
@@ -12,6 +13,8 @@ def execute(params: dict) -> str:
     """
     cmd = params.get("cmd")
     cwd = params.get("dir")
+    
+    debug.log("Shell Command", f"Cmd: {cmd}, Dir: {cwd}")
     
     if not cmd:
         return "Error: Command is required."
@@ -34,6 +37,7 @@ def execute(params: dict) -> str:
             output.append(stderr)
             
         result = "".join(output).strip()
+        debug.log("Shell Output", result)
         return f"Shell output:\n{result}" if result else "Shell output: (empty)"
         
     except Exception as e:

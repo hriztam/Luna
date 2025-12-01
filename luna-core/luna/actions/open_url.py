@@ -1,4 +1,5 @@
 import subprocess
+import luna.debug as debug
 
 def execute(params: dict) -> str:
     """
@@ -11,6 +12,7 @@ def execute(params: dict) -> str:
         str: Success or error message.
     """
     url = params.get("url")
+    debug.log("Open URL", url)
     if not url:
         return "Error: URL is required."
 

@@ -1,3 +1,5 @@
+import luna.debug as debug
+
 def parse_action(llm_json: dict) -> dict:
     """
     Validates and parses the JSON output from the LLM.
@@ -10,7 +12,10 @@ def parse_action(llm_json: dict) -> dict:
               or an error dictionary if invalid.
     """
     if not isinstance(llm_json, dict):
+        debug.log("Parser Error", "Input is not a dictionary")
         return {"action": "error", "message": "Input must be a dictionary"}
+    
+    debug.log("Parser Input", llm_json)
     
     action = llm_json.get("action")
     params = llm_json.get("params")
@@ -59,4 +64,6 @@ def parse_action(llm_json: dict) -> dict:
     else:
         return {"action": "error", "message": f"Unknown action: {action}"}
 
-    return {"action": action, "params": params}
+    result = {"action": action, "params": params}
+    debug.log("Parser Result", result)
+    return result

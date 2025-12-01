@@ -2,6 +2,7 @@ from luna.actions import open_app
 from luna.actions import open_url
 from luna.actions import run_shell
 from luna.actions import system_control
+import luna.debug as debug
 
 def execute(action_dict: dict) -> str:
     """
@@ -15,6 +16,8 @@ def execute(action_dict: dict) -> str:
     """
     action = action_dict.get("action")
     params = action_dict.get("params", {})
+    
+    debug.log("Executor Dispatch", f"Action: {action}, Params: {params}")
     
     if action == "error":
         return f"Error: {action_dict.get('message', 'Unknown error')}"
@@ -36,4 +39,5 @@ def execute(action_dict: dict) -> str:
             return f"Error: No handler for action '{action}'"
             
     except Exception as e:
+        debug.log_error("Executor Error", e)
         return f"Execution failed: {str(e)}"
