@@ -24,3 +24,18 @@ Run the assistant using the CLI command:
 ```bash
 luna
 ```
+
+## Debugging
+
+To enable detailed debug logging, set the `LUNA_DEBUG` environment variable to `1`:
+
+```bash
+export LUNA_DEBUG=1
+luna "open safari"
+```
+
+Logs will be written to `~/.luna_debug.log` and include:
+
+- User input and LLM responses
+- Parsed actions and execution details
+- Timing information and error tracebacks
