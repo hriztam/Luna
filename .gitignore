@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+**/.env
+
+# Distribution
+*.egg-info/
+dist/
+build/
+
+# Debug logs
+luna_debug.log
+.luna_debug.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+## User settings
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+
+## Build generated
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+## CocoaPods
+Pods/
+
+## Carthage
+Carthage/Build/
+
+## Accio dependency management
+Dependencies/
+.accio/
+
+## fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+## Code Injection
+iOSInjectionProject/
