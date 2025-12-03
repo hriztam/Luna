@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		880E240D2EE0CD95002DECD7 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 880E240C2EE0CD95002DECD7 /* KeyboardShortcuts */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		880E23BF2EE0C66B002DECD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880E240D2EE0CD95002DECD7 /* KeyboardShortcuts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				880E23B22EE0C669002DECD7 /* luna-mac */,
 				880E23C12EE0C66B002DECD7 /* luna-macTests */,
 				880E23CB2EE0C66B002DECD7 /* luna-macUITests */,
+				880E240B2EE0CD95002DECD7 /* Frameworks */,
 				880E23B12EE0C669002DECD7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				880E23C82EE0C66B002DECD7 /* luna-macUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		880E240B2EE0CD95002DECD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = "luna-mac";
 			packageProductDependencies = (
+				880E240C2EE0CD95002DECD7 /* KeyboardShortcuts */,
 			);
 			productName = "luna-mac";
 			productReference = 880E23B02EE0C669002DECD7 /* luna-mac.app */;
@@ -555,6 +569,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		880E240C2EE0CD95002DECD7 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 880E24082EE0CA45002DECD7 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 880E23A82EE0C669002DECD7 /* Project object */;
 }

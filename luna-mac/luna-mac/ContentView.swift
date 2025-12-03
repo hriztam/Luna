@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 
 struct ContentView: View {
@@ -118,14 +119,10 @@ struct ContentView: View {
             isInputFocused = true
         }
         // Sync external focus request to local FocusState
-        .onChange(of: appState.isInputFocused) { newValue in
-            if newValue {
-                // Delay slightly to ensure window is active
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-                    isInputFocused = true
-                    // Reset state
-                    appState.isInputFocused = false
-                }
+        .onReceive(appState.focusInputSubject) { _ in
+            // Delay slightly to ensure window is active
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                isInputFocused = true
             }
         }
     }

@@ -1,5 +1,6 @@
 import SwiftUI
 import AppKit
+import KeyboardShortcuts
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     // The status item in the menu bar
@@ -25,6 +26,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.image = NSImage(systemSymbolName: "moon.stars.fill", accessibilityDescription: "Luna")
             button.action = #selector(togglePopover(_:))
         }
+        
+        // Register global hotkey listener
+        KeyboardShortcuts.onKeyUp(for: .invokeLuna) { [weak self] in
+            self?.togglePopover(nil)
+        }
     }
     
     @objc func togglePopover(_ sender: AnyObject?) {
@@ -35,6 +41,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 popover.show(relativeTo: button.bounds, of: button, preferredEdge: NSRectEdge.minY)
                 // Bring app to front so the popover is active
                 NSApp.activate(ignoringOtherApps: true)
+                // Request focus for the input field
+                AppState.shared.focusInputSubject.send()
             }
         }
     }
