@@ -12,3 +12,9 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# Debug logs
+luna_debug.log
+.luna_debug.log
+
+.DS_Store
