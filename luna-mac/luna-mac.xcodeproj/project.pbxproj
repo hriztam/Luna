@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		880E240D2EE0CD95002DECD7 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 880E240C2EE0CD95002DECD7 /* KeyboardShortcuts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		880E23BF2EE0C66B002DECD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880E23A82EE0C669002DECD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880E23AF2EE0C669002DECD7;
+			remoteInfo = "luna-mac";
+		};
+		880E23C92EE0C66B002DECD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880E23A82EE0C669002DECD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880E23AF2EE0C669002DECD7;
+			remoteInfo = "luna-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		880E23B02EE0C669002DECD7 /* luna-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "luna-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		880E23BE2EE0C66B002DECD7 /* luna-macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "luna-macTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		880E23C82EE0C66B002DECD7 /* luna-macUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "luna-macUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		880E23B22EE0C669002DECD7 /* luna-mac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "luna-mac";
+			sourceTree = "<group>";
+		};
+		880E23C12EE0C66B002DECD7 /* luna-macTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "luna-macTests";
+			sourceTree = "<group>";
+		};
+		880E23CB2EE0C66B002DECD7 /* luna-macUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "luna-macUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		880E23AD2EE0C669002DECD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880E240D2EE0CD95002DECD7 /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880E23BB2EE0C66B002DECD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880E23C52EE0C66B002DECD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		880E23A72EE0C669002DECD7 = {
+			isa = PBXGroup;
+			children = (
+				880E23B22EE0C669002DECD7 /* luna-mac */,
+				880E23C12EE0C66B002DECD7 /* luna-macTests */,
+				880E23CB2EE0C66B002DECD7 /* luna-macUITests */,
+				880E240B2EE0CD95002DECD7 /* Frameworks */,
+				880E23B12EE0C669002DECD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		880E23B12EE0C669002DECD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880E23B02EE0C669002DECD7 /* luna-mac.app */,
+				880E23BE2EE0C66B002DECD7 /* luna-macTests.xctest */,
+				880E23C82EE0C66B002DECD7 /* luna-macUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		880E240B2EE0CD95002DECD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		880E23AF2EE0C669002DECD7 /* luna-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880E23D22EE0C66B002DECD7 /* Build configuration list for PBXNativeTarget "luna-mac" */;
+			buildPhases = (
+				880E23AC2EE0C669002DECD7 /* Sources */,
+				880E23AD2EE0C669002DECD7 /* Frameworks */,
+				880E23AE2EE0C669002DECD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				880E23B22EE0C669002DECD7 /* luna-mac */,
+			);
+			name = "luna-mac";
+			packageProductDependencies = (
+				880E240C2EE0CD95002DECD7 /* KeyboardShortcuts */,
+			);
+			productName = "luna-mac";
+			productReference = 880E23B02EE0C669002DECD7 /* luna-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		880E23BD2EE0C66B002DECD7 /* luna-macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880E23D52EE0C66B002DECD7 /* Build configuration list for PBXNativeTarget "luna-macTests" */;
+			buildPhases = (
+				880E23BA2EE0C66B002DECD7 /* Sources */,
+				880E23BB2EE0C66B002DECD7 /* Frameworks */,
+				880E23BC2EE0C66B002DECD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880E23C02EE0C66B002DECD7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				880E23C12EE0C66B002DECD7 /* luna-macTests */,
+			);
+			name = "luna-macTests";
+			packageProductDependencies = (
+			);
+			productName = "luna-macTests";
+			productReference = 880E23BE2EE0C66B002DECD7 /* luna-macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		880E23C72EE0C66B002DECD7 /* luna-macUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880E23D82EE0C66B002DECD7 /* Build configuration list for PBXNativeTarget "luna-macUITests" */;
+			buildPhases = (
+				880E23C42EE0C66B002DECD7 /* Sources */,
+				880E23C52EE0C66B002DECD7 /* Frameworks */,
+				880E23C62EE0C66B002DECD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880E23CA2EE0C66B002DECD7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				880E23CB2EE0C66B002DECD7 /* luna-macUITests */,
+			);
+			name = "luna-macUITests";
+			packageProductDependencies = (
+			);
+			productName = "luna-macUITests";
+			productReference = 880E23C82EE0C66B002DECD7 /* luna-macUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		880E23A82EE0C669002DECD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					880E23AF2EE0C669002DECD7 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					880E23BD2EE0C66B002DECD7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 880E23AF2EE0C669002DECD7;
+					};
+					880E23C72EE0C66B002DECD7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 880E23AF2EE0C669002DECD7;
+					};
+				};
+			};
+			buildConfigurationList = 880E23AB2EE0C669002DECD7 /* Build configuration list for PBXProject "luna-mac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 880E23A72EE0C669002DECD7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				880E24082EE0CA45002DECD7 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 880E23B12EE0C669002DECD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				880E23AF2EE0C669002DECD7 /* luna-mac */,
+				880E23BD2EE0C66B002DECD7 /* luna-macTests */,
+				880E23C72EE0C66B002DECD7 /* luna-macUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880E23AE2EE0C669002DECD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880E23BC2EE0C66B002DECD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880E23C62EE0C66B002DECD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880E23AC2EE0C669002DECD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880E23BA2EE0C66B002DECD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880E23C42EE0C66B002DECD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		880E23C02EE0C66B002DECD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880E23AF2EE0C669002DECD7 /* luna-mac */;
+			targetProxy = 880E23BF2EE0C66B002DECD7 /* PBXContainerItemProxy */;
+		};
+		880E23CA2EE0C66B002DECD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880E23AF2EE0C669002DECD7 /* luna-mac */;
+			targetProxy = 880E23C92EE0C66B002DECD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		880E23D02EE0C66B002DECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		880E23D12EE0C66B002DECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		880E23D32EE0C66B002DECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "luna-mac/luna_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.luna-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		880E23D42EE0C66B002DECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "luna-mac/luna_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.luna-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		880E23D62EE0C66B002DECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.luna-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luna-mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/luna-mac";
+			};
+			name = Debug;
+		};
+		880E23D72EE0C66B002DECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.luna-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luna-mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/luna-mac";
+			};
+			name = Release;
+		};
+		880E23D92EE0C66B002DECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.luna-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "luna-mac";
+			};
+			name = Debug;
+		};
+		880E23DA2EE0C66B002DECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.luna-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "luna-mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		880E23AB2EE0C669002DECD7 /* Build configuration list for PBXProject "luna-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880E23D02EE0C66B002DECD7 /* Debug */,
+				880E23D12EE0C66B002DECD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880E23D22EE0C66B002DECD7 /* Build configuration list for PBXNativeTarget "luna-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880E23D32EE0C66B002DECD7 /* Debug */,
+				880E23D42EE0C66B002DECD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880E23D52EE0C66B002DECD7 /* Build configuration list for PBXNativeTarget "luna-macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880E23D62EE0C66B002DECD7 /* Debug */,
+				880E23D72EE0C66B002DECD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880E23D82EE0C66B002DECD7 /* Build configuration list for PBXNativeTarget "luna-macUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880E23D92EE0C66B002DECD7 /* Debug */,
+				880E23DA2EE0C66B002DECD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		880E24082EE0CA45002DECD7 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		880E240C2EE0CD95002DECD7 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 880E24082EE0CA45002DECD7 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 880E23A82EE0C669002DECD7 /* Project object */;
+}
