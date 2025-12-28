@@ -17,6 +17,8 @@
 
 ### My initial thought process is to go for Rust for the core architecture and Swift for the UI Layer, I will try to use and integrate other softwares to have a smooth build environment while being swift (no pun intended lol)
 
+Currently added Daemon for live event listening
+
 ### Things that I would need along the way
 
 - Transcriber/ASR (local or streaming)
